@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Speed Typing Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💻 Speed Typing Test</h1>
+
+    <!-- Updated quote container for per-letter styling -->
+    <div id="quote" class="quote">Loading...</div>
+
+    <!-- Input box -->
+    <input type="text" id="input" placeholder="Start typing here..." autocomplete="off" />
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button onclick="checkResult()">Done</button>
+      <button onclick="resetTest()">Try Again</button>
+    </div>
+
+    <!-- Result display -->
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
